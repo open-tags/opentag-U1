@@ -1,0 +1,53 @@
+[package]
+edition = "2024"
+name = "embassy-stm32g4-examples"
+version = "0.1.0"
+license = "MIT"
+publish = false
+
+[features]
+default = []
+# Opt-in range-over-CAN image. Existing USB-only builds remain unchanged.
+range-can = []
+
+[dependencies]
+# opentags v2 uses STM32G474CCTx.
+embassy-stm32 = { git = "https://github.com/embassy-rs/embassy", rev = "f5da82f5573c42f649f2afb7fae5b73d9e2b4356", features = [ "defmt", "time-driver-any", "stm32g474cc", "memory-x", "unstable-pac", "exti", "dual-bank", "stm32-hrtim"]  }
+embassy-sync = { git = "https://github.com/embassy-rs/embassy", rev = "f5da82f5573c42f649f2afb7fae5b73d9e2b4356", features = ["defmt"] }
+embassy-executor = { git = "https://github.com/embassy-rs/embassy", rev = "f5da82f5573c42f649f2afb7fae5b73d9e2b4356", features = ["platform-cortex-m", "executor-thread", "defmt"] }
+embassy-time = { git = "https://github.com/embassy-rs/embassy", rev = "f5da82f5573c42f649f2afb7fae5b73d9e2b4356", features = ["defmt", "defmt-timestamp-uptime", "tick-hz-32_768"] }
+embassy-futures = { git = "https://github.com/embassy-rs/embassy", rev = "f5da82f5573c42f649f2afb7fae5b73d9e2b4356" }
+embassy-usb = { git = "https://github.com/embassy-rs/embassy", rev = "f5da82f5573c42f649f2afb7fae5b73d9e2b4356", features = ["defmt"] }
+
+defmt = "1.0.1"
+defmt-rtt = "1.0.0"
+
+cortex-m = { version = "0.7.6", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.0"
+embedded-hal = "0.2.6"
+embedded-hal-1 = { package = "embedded-hal", version = "1.0" }
+embedded-hal-async = "1.0"
+embedded-hal-bus = { version = "0.3", features = ["async"] }
+embedded-can = { version = "0.4" }
+dw3000-ng = { version = "1.0", features = ["defmt", "async", "rssi"] }
+nb = "1.0"
+panic-probe = { version = "1.0.0", features = ["print-defmt"] }
+heapless = { version = "0.9", default-features = false }
+static_cell = "2.0.0"
+critical-section = "1.1"
+libm = "0.2.16"
+[profile.release]
+debug = 2
+codegen-units = 1
+lto = "fat"
+opt-level = "s"
+
+# Size-optimized CAN evaluation image; do not change the existing release build.
+[profile.can-release]
+inherits = "release"
+opt-level = "z"
+
+[package.metadata.embassy]
+build = [
+  { target = "thumbv7em-none-eabi", artifact-dir = "out/examples/stm32g4" }
+]

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 711 819" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12">
+<rect width="100%" height="100%" fill="#fcfcfb"/><style>text{paint-order:stroke;stroke:#fcfcfb;stroke-width:4px;stroke-linejoin:round}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6b6a66"/></marker></defs>
+<text x="16" y="26" font-size="15" fill="#1b1b1a" font-weight="600">U1 TDOA setup · upstairs room, top view</text>
+<text x="16" y="44" fill="#6b6a66">To scale except the boards (enlarged). Coordinates in m, origin at the corner by board 10.</text>
+<rect x="110.0" y="70.0" width="451.8" height="629.4" rx="10" fill="none" stroke="#1b1b1a" stroke-width="2"/>
+<line x1="110.0" y1="733.4" x2="561.8" y2="733.4" stroke="#6b6a66" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="335.9" y="751.4" text-anchor="middle" fill="#1b1b1a" font-weight="600">3.012 m (x)</text>
+<line x1="64.0" y1="70.0" x2="64.0" y2="699.4" stroke="#6b6a66" marker-start="url(#a)" marker-end="url(#a)"/>
+<text x="56.0" y="384.7" text-anchor="middle" fill="#1b1b1a" font-weight="600" transform="rotate(-90 56.0 384.7)">4.196 m (y)</text>
+<text x="104.0" y="715.4" text-anchor="end" fill="#6b6a66">(0, 0)</text>
+<line x1="132.8" y1="677.8" x2="533.15" y2="679.6" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="332.975" y="696.7" text-anchor="middle" fill="#2a78d6" font-weight="600">2.669 m</text>
+<line x1="132.8" y1="677.8" x2="315.35" y2="87.25" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="194.07500000000002" y="382.525" text-anchor="middle" fill="#2a78d6" font-weight="600">4.121 m</text>
+<line x1="533.15" y1="679.6" x2="315.35" y2="87.25" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="454.25" y="383.425" text-anchor="middle" fill="#2a78d6" font-weight="600">4.207 m</text>
+<circle cx="327.1" cy="481.55" r="6" fill="none" stroke="#1baf7a" stroke-width="2"/>
+<line x1="318.1" y1="481.55" x2="336.1" y2="481.55" stroke="#1baf7a"/><line x1="327.1" y1="472.55" x2="327.1" y2="490.55" stroke="#1baf7a"/>
+<text x="339.1" y="485.55" fill="#1baf7a" font-weight="600">C (planned tag point, not placed) 1.447, 1.452</text>
+<rect x="121.44999999999999" y="666.4499999999999" width="26" height="26" rx="5" fill="#ffffff" stroke="#1b1b1a" stroke-width="1.5"/>
+<circle cx="132.8" cy="677.8" r="3.5" fill="#eb6834"/>
+<line x1="121.44999999999999" y1="679.4499999999999" x2="110.0" y2="679.4499999999999" stroke="#6b6a66" marker-end="url(#a)"/>
+<line x1="134.45" y1="692.4499999999999" x2="134.45" y2="699.4" stroke="#6b6a66" marker-end="url(#a)"/>
+<text x="121.44999999999999" y="622.4499999999999" text-anchor="start" fill="#1b1b1a" font-weight="600" font-size="12">Anchor 10</text>
+<text x="121.44999999999999" y="637.4499999999999" text-anchor="start" fill="#6b6a66" font-weight="400" font-size="11">module 0.152, 0.144 m</text>
+<text x="121.44999999999999" y="652.4499999999999" text-anchor="start" fill="#6b6a66" font-weight="400" font-size="11">to walls: left 138 · bottom 108 mm</text>
+<rect x="521.8" y="668.25" width="26" height="26" rx="5" fill="#ffffff" stroke="#1b1b1a" stroke-width="1.5"/>
+<circle cx="533.15" cy="679.6" r="3.5" fill="#eb6834"/>
+<line x1="547.8" y1="681.25" x2="561.8" y2="681.25" stroke="#6b6a66" marker-end="url(#a)"/>
+<line x1="534.8" y1="694.25" x2="534.8" y2="699.4" stroke="#6b6a66" marker-end="url(#a)"/>
+<text x="547.8" y="624.25" text-anchor="end" fill="#1b1b1a" font-weight="600" font-size="12">Anchor 9</text>
+<text x="547.8" y="639.25" text-anchor="end" fill="#6b6a66" font-weight="400" font-size="11">module 2.821, 0.132 m</text>
+<text x="547.8" y="654.25" text-anchor="end" fill="#6b6a66" font-weight="400" font-size="11">to walls: right 155 · bottom 96 mm</text>
+<rect x="304.0" y="75.9" width="26" height="26" rx="5" fill="#ffffff" stroke="#1b1b1a" stroke-width="1.5"/>
+<circle cx="315.35" cy="87.25" r="3.5" fill="#eb6834"/>
+<line x1="330.0" y1="88.9" x2="561.8" y2="88.9" stroke="#6b6a66" marker-end="url(#a)"/>
+<text x="445.9" y="82.9" text-anchor="middle" fill="#6b6a66" font-size="11">1.607 m</text>
+<line x1="317.0" y1="75.9" x2="317.0" y2="70.0" stroke="#6b6a66" marker-end="url(#a)"/>
+<text x="317.0" y="119.9" text-anchor="middle" fill="#1b1b1a" font-weight="600" font-size="12">Anchor 8</text>
+<text x="317.0" y="134.9" text-anchor="middle" fill="#6b6a66" font-weight="400" font-size="11">module 1.369, 4.081 m</text>
+<text x="317.0" y="149.9" text-anchor="middle" fill="#6b6a66" font-weight="400" font-size="11">to walls: top 101 mm · right 1.607 m</text>
+<circle cx="22" cy="773.4" r="3.5" fill="#eb6834"/><text x="32" y="777.4" fill="#6b6a66">radio module (DWM3000) position used for coordinates</text>
+<rect x="16" y="787.4" width="12" height="12" rx="3" fill="#fff" stroke="#1b1b1a"/><text x="34" y="797.4" fill="#6b6a66">casing (wall distances measured to its outside; enlarged)</text>
+<line x1="14" y1="811.4" x2="30" y2="811.4" stroke="#2a78d6" stroke-dasharray="6 4" stroke-width="1.5"/><text x="34" y="815.4" fill="#6b6a66">anchor-to-anchor distance (module to module)</text>
+</svg>

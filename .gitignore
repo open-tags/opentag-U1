@@ -1,0 +1,24 @@
+target/
+dist/
+.DS_Store
+*.kicad_prl
+*-backups/
+fp-info-cache
+\#auto_saved_files\#
+_autosave-*
+
+# Private engineering material kept alongside the public repo
+.claude/
+.history/
+hardware/datasheets/
+hardware/export/
+hardware/opentag-backups/
+hardware/*.zip
+hardware/*.dsn
+hardware/*.net
+hardware/fp-lib-table
+hardware/fabrication-toolkit-options.json
+hardware/v1.step
+hardware/v1_final_part_list.csv
+hardware/*_design_log.md
+testing/*.canvas

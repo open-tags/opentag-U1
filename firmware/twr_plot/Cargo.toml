@@ -1,0 +1,29 @@
+[package]
+name = "twr_plot"
+version = "0.1.0"
+license = "MIT"
+edition = "2021"
+
+[[bin]]
+name = "twr_plot"
+path = "src/main.rs"
+
+[[bin]]
+name = "can_plot"
+path = "src/can_plot.rs"
+
+[[bin]]
+name = "twr_locate"
+path = "src/locate.rs"
+
+[[bin]]
+name = "tdoa_plot"
+path = "src/tdoa_plot.rs"
+
+[[bin]]
+name = "tdoa_calibrate"
+path = "src/tdoa_calibrate.rs"
+
+[dependencies]
+rerun = "0.31"
+regex = "1"
