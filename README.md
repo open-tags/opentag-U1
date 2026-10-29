@@ -1,5 +1,7 @@
 # opentag U1
 
+![opentag U1 in its enclosure with a clear acrylic lid](images/u1-render.jpg)
+
 UWB distance and indoor positioning hardware for robots: KiCad design, Rust
 firmware, host tools, enclosure CAD and bench test notes. Everything in this
 repository is released under the [MIT License](LICENSE).
